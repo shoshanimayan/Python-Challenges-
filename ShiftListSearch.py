@@ -24,6 +24,8 @@ def maxShiftedList(List):
 
 
 
+
+
 """
 
 Firstly I was confused by the requirements of the question, as it was unclear if i was supposed to be implementing the shifting of the list as a requirement of the function
@@ -43,6 +45,8 @@ Firstly I was confused by the requirements of the question, as it was unclear if
     a nested loop with complexity O(n^2). Therefore, as a whole this the complexity of the is function grows quadraticly with the size of the given list,
     with a total complexity class of O(n^2)+ O(n) = O(n^2).
 
-3. 
+3. One way to simplify this problem would be to guarentee that all the elements inside the list are int, meaning we dont have have to check for that edge
+    case of seeing if any of the elements are not int, which is the most most consuming part of the algorithm at O(n^2), getting rid of checking for this
+    edge case would reduce the algorithms complexity to O(n), and have the problem grow linearly instead of quadraticly.  
 
 """
