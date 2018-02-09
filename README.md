@@ -1,6 +1,6 @@
 # Shifted List Search Challange 
 
-THe following challenge problem consisted of of taking a shifted list of int, essentially an unorderd list of ints, and returning the greatest int value within that list, I then go on to describe the edge cases i accounted for and some of my design decisions i made(1), followed by explaining the orders of growth implications and complexity of the problem(2), as well as describing how I would improve the function(3). 
+The following challenge problem consisted of of taking a shifted list of int, essentially an unorderd list of ints, and returning the greatest int value within that list. I then go on to describe the edge cases i accounted for and some of my design decisions i made(1), followed by explaining the orders of growth implications and complexity of the problem(2), as well as describing how I would improve the function(3). 
 
 Firstly I was confused by the requirements of the question, as it was unclear if i was supposed to be implementing the shifting of the list as a requirement of the function
     but going off the documentation I assumed it wasn't, tho if it is, shifting could be easily implemeted by creating a list that is shifted by an index arguement
