@@ -45,7 +45,7 @@ Firstly I was confused by the requirements of the question, as it was unclear if
     this change by recreating this problem in another language such as java or c++, while Python is incredibly easy to use and is very
     practical for getting a lot of work done quickly, it is that same practicality that can sometimes make python inefficent in terms of complexity. In
     this case the fact that Python is dynamically typed, meaning types are only checked at run time, and you can't declare types for variables or
-    parameters like you do in Java or C++ can make things easier but more consuming because you can always just make assumptions about typing.
+    parameters like you do in Java or C++ can make things easier but more consuming because you can't always just make assumptions about typing.
     Additionally, if given more time I would look to see if any library existed for python that would allow python to simulate static typing so that we would
     not need to check typing within the function itself.
 
